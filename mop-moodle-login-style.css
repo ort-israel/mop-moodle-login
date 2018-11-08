@@ -1,0 +1,97 @@
+.login_widget {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: right;
+    padding: 2rem;
+}
+
+.login_panel {
+    padding-bottom: 2rem;
+}
+
+.guest_panel {
+    padding-top: 2rem;
+}
+
+.login_panel {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+#login_panel input[type="text"],
+#login_panel input[type="password"] {
+    display: inline;
+    width: auto;
+    max-width: 30rem;
+}
+
+/*fix for chrome*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    -webkit-text-fill-color: #595959 !important;
+}
+
+#login_form label {
+    padding-left: 1.5rem;
+}
+
+.username_box,
+.pass_box {
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+}
+
+#login_panel #login_form #submit_btn {
+    border-color: #d63d44;
+}
+
+#login_panel #login_form #submit_btn:focus {
+    border: 2px solid #595959;
+}
+
+.guest_panel_title {
+    font-size: 1.8rem;
+}
+
+.guest_button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: #312423;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 2px 12px;
+    font-weight: bold;
+}
+
+.guestNotification {
+    display: inline-block; /*needed for line-height*/
+    line-height: 1.5;
+}
+
+.submit_btn {
+    text-align: left;
+}
+
+@media (min-width: 840px) {
+    .login_widget {
+        text-align: left;
+        padding: 4rem;
+    }
+
+    .login_panel {
+        padding-left: 4rem;
+    }
+
+    .guest_panel {
+        padding-right: 4rem;
+    }
+
+    .login_panel {
+        border-left: 1px solid #d5d5d5;
+        border-bottom: none;
+    }
+
+}

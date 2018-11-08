@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mop Moodle Login v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-12 09:50+0300\n"
+"PO-Revision-Date: 2018-09-12 11:12+0300\n"
+"Last-Translator: admin <tsofiyai@mapa.ort.org.il>\n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: lang\n"
+"X-Poedit-SearchPath-1: .\n"
+
+# @ mop-moodle-login
+#: mop-moodle-login.php:36
+msgid "username"
+msgstr "שם משתמש"
+
+# @ mop-moodle-login
+#: mop-moodle-login.php:40
+msgid "password"
+msgstr "סיסמה"
+
+# @ mop-moodle-login
+#: mop-moodle-login.php:44
+msgid "login"
+msgstr "כניסה"
+
+#: mop-moodle-login.php:50
+msgid "guest"
+msgstr "כניסת אורחים"
+
+#: mop-moodle-login.php:51
+msgid "The system doesn't save guest users's grades"
+msgstr "בכניסת אורח, המערכת אינה שומרת את ציוני המשתמש"
+
+#: mop-moodle-login.php:53
+msgid "connect as guest"
+msgstr "כניסה כאורח"
