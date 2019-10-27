@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'carmelit_regular';
+    src: url('fonts/carmelitregular.eot');
+    src: url('fonts/carmelitregular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/carmelitregular.woff') format('woff'),
+    url('fonts/carmelitregular.ttf') format('truetype'),
+    url('fonts/carmelitregular.svg#carmelit_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#login_panel {
+    text-align: center;
+}
+#login_form {
+    padding: 40px 35px 35px 45px;
+    border: 1px solid #ffffff;
+    background-color: #fafafa;
+    display: inline-block;
+    font-family: carmelit_regular;
+    font-size: 18px;
+    color: #595959;
+}
+.entry-content #login_form label{
+	font-size: 18px;
+}
+#login_panel input[type="text"],
+#login_panel input[type="password"] {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    width: 339px;
+    color: #595959;
+}
+#login_panel input[type="text"]:focus,
+#login_panel input[type="password"]:focus{
+    border: 1px solid #595959;
+}
+/*fix for chrome*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    -webkit-text-fill-color: #595959 !important;
+}
+#login_form label {
+    padding-left: 14px;
+}
+.username_box.row,
+.pass_box.row {
+    text-align: left;
+    margin-bottom: 13px;
+}
+.submit_btn {
+    text-align: center;
+}
+#login_panel #login_form #submit_btn {
+    color: #ffffff;
+    background: url('left_arrow.png')  #b00000 16px 8px no-repeat;
+    border: 1px solid #ffffff;
+    border-radius: 16px / 17px;
+    font-size: 24px;
+    text-align: center;
+    font-family: carmelit_regular;
+    padding: 7px 20px 3px 35px;
+    box-shadow: none;
+    margin-top: 25px;
+}
+#login_panel #login_form #submit_btn:focus{
+     border: 2px solid #595959;
+ }
+#login_panel p{
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+}
