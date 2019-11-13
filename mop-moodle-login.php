@@ -58,7 +58,6 @@ class MopMoodleLogin {
                    href="http://campus.ort.org.il/blocks/anonymous_user/generateuser.php?courseid=' . $a['id'] . '">' . __('connect as guest', 'mop-moodle-login') . '</a>
             </div>
         </div>
-    </div>
     ';
     }
 }
