@@ -35,7 +35,7 @@ class MopMoodleLogin {
         return '
     <div id="login_panel"  dir="rtl">
       <p tabindex="0" >' . __('Test yourself on what you\'ve learned. Log into Moodle', 'mop-moodle-login') . ' </p>
-            <form id="login_form" action="https://campusdev.ort.org.il/ort/anonymous_user_login.php?courseid=' . $a['id'] . '" method="post" >
+            <form id="login_form" action="https://campus.ort.org.il/ort/anonymous_user_login.php?courseid=' . $a['id'] . '" method="post" >
                 <div class="username_box row">
                     <label for="username" id="username_lbl">' . __('username', 'mop-moodle-login') . '</label>
                     <input type="text" name="username" id="username" size="40">
@@ -55,7 +55,7 @@ class MopMoodleLogin {
             <span id="guestNotification">' . __('The system doesn\'t save guest users\'s grades', 'mop-moodle-login') . '</span>
             <div class="submit_btn">
                 <a id="guestButton" class="guest_button"
-                   href="http://campusdev.ort.org.il/blocks/anonymous_user/generateuser.php?courseid=' . $a['id'] . '">' . __('connect as guest', 'mop-moodle-login') . '</a>
+                   href="http://campus.ort.org.il/blocks/anonymous_user/generateuser.php?courseid=' . $a['id'] . '">' . __('connect as guest', 'mop-moodle-login') . '</a>
             </div>
         </div>
     </div>
